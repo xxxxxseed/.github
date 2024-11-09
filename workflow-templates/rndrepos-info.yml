@@ -2,9 +2,9 @@ name: Repo Info with context
 
 on:
   push:
-    branch: [ $default-branch ]
+    branches: [ $default-branch ]
   pull_request:
-    branch: [ $default-branch ]
+    branches: [ $default-branch ]
 
 jobs:
   info:
